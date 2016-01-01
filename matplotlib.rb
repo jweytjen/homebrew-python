@@ -34,8 +34,8 @@ end
 
 class Matplotlib < Formula
   homepage "http://matplotlib.org"
-  url "https://pypi.python.org/packages/source/m/matplotlib/matplotlib-1.4.3.tar.gz"
-  sha256 "61f201c6a82e89e4d9e324266203fad44f95fd8f36d8eec0d8690273e1182f75"
+  url "https://pypi.python.org/packages/source/m/matplotlib/matplotlib-1.5.0.tar.gz"
+  sha256 "67b08b1650a00a6317d94b76a30a47320087e5244920604c5462188cba0c2646"
   head "https://github.com/matplotlib/matplotlib.git"
 
   bottle do
@@ -93,17 +93,17 @@ class Matplotlib < Formula
 
   resource "mock" do
     url "https://pypi.python.org/packages/source/m/mock/mock-1.0.1.tar.gz"
-    sha1 "ba2b1d5f84448497e14e25922c5e3293f0a91c7e"
+    sha256 "b839dd2d9c117c701430c149956918a423a9863b48b09c90e30a6013e7d2f44f"
   end
 
   resource "nose" do
     url "https://pypi.python.org/packages/source/n/nose/nose-1.3.4.tar.gz"
-    sha1 "4d21578b480540e4e50ffae063094a14db2487d7"
+    sha256 "76bc63a4e2d5e5a0df77ca7d18f0f56e2c46cfb62b71103ba92a92c79fab1e03"
   end
 
   resource "pyparsing" do
     url "https://pypi.python.org/packages/source/p/pyparsing/pyparsing-2.0.3.tar.gz"
-    sha1 "39299b6bb894a27fb9cd5b548c21d168b893b434"
+    sha256 "06e729e1cbf5274703b1f47b6135ed8335999d547f9d8cf048b210fb8ebf844f"
   end
 
   resource "pytz" do
